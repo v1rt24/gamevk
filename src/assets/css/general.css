@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Yanone';
+    src: url('../fonts/YanoneKaffeesatz-Medium.ttf');
+}
+
+/**/
+body {
+    font-family: Yanone, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: url("/img/background__main.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    animation: bg 90s linear infinite;
+}
+
+@keyframes bg {
+    0%, 100% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+/**/
+.wrapperBody {
+    height: 100vh;
+}
+
+i.fa {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/**/
+.header {
+    height: 250px;
+    background-color: rgba(0, 0, 0, .5);
+    border-bottom: 8px solid #ffaa00;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**/
+main {
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.notFull {
+    height: calc(100% - 250px);
+}
+
+.full {
+    height: 100%;
+}
+
+/**/
+.wrapper-content {
+    height: 100%;
+    padding-bottom: 20px;
+    overflow-x: auto;
+}
+
+.wrapper-content .btn {
+    margin: 0 auto;
+}
+
+.wrapper-content .btn:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
